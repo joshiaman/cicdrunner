@@ -31,7 +31,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: joshiaman112/devops-lab2-ci:tagname
+        image: joshiaman112/devops-lab2-ci
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
